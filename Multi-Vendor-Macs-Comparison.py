@@ -64,8 +64,8 @@ interface1 = input('Please specify the interface for the device1: ')
 vendor1 = input('Please specify one of this options (huawei, cisco_ios, cisco_xe): ')
 sorted_vlans_device1 = get_sorted_vlans(device_ip=device_ip1,
                                         device_type = vendor1,
-                                        username = 'jmimorales',
-                                        password = 'Mig.oct2020$22',
+                                        username = 'XXXX',
+                                        password = 'XXXX',
                                         interface = interface1,
                                         session_log = 'ssh1.log',
                                         )
@@ -75,8 +75,8 @@ interface2 = input('Please specify the interface for the device2: ')
 vendor2 = input('Please specify one of this options (huawei, cisco_ios, cisco_xe): ')
 sorted_vlans_device2 = get_sorted_vlans(device_ip=device_ip2,
                                         device_type = vendor2,
-                                        username = 'jmimorales',
-                                        password = 'Mig.oct2020$22',
+                                        username = 'XXXX',
+                                        password = 'XXXX',
                                         interface = interface2,
                                         session_log = 'ssh2.log',
                                         )
